@@ -1,4 +1,4 @@
-# fMRIprep 
+# fMRIPrep 
 ## Instalación
 - Debes de instalar Docker para poder correr la imagen, Para hacerlo puedes instalarlo desde el siguiente link: https://docs.docker.com/get-docker/
 - Clonar el repositorio en el git bash:
@@ -10,8 +10,8 @@ git clone https://github.com/EduardoMG9906/fMRI-prep
 docker build -t fmriprep 
 ```
 Esto creara las imágenes necesarias para correr los contenedores.
-## Licensia Free Surfer
-Para poder correr FMRIprep debes de tener la licensia de FreeSurfer la cual para obtenerla debes de llenar el siguiente formulario:
+## Licencia Free Surfer
+Para poder correr FMRIPrep debes de tener la licensia de FreeSurfer la cual para obtenerla debes de llenar el siguiente formulario:
 https://surfer.nmr.mgh.harvard.edu/registration.html
 Despues de llenado el formulario debes de descargar el archivo y guardarlo en tu computador.
 ## Distribucion correcta de los archivos
