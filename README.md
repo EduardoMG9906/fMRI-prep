@@ -41,6 +41,6 @@ Donde Sub-01 y Sub-02 son son los pacientes, ses-n se refiere al numero de la se
 Despues de creada la imagen en docker y de tener organizado nuestros archivos DICOM es momento de hacer el preprocesamiento de las imagenes.
 Para esto utilizamos la siguiente linea de codigo en la terminal (cmd o wsl2) en la que estamos trabajando.
 ```
-docker run --rm -v <Ruta raw>:/data/in -v <Ruta raw>/derivatives:/data/out -v <Ruta licensia FreeSurfer>:/opt/freesurfer/license.txt fmriprep /data/in /data/out participant --participant-label 01 --fs-license-file /opt/freesurfer/license.txt
+docker run --rm -v <Ruta raw>:/data/in -v <Ruta raw>/derivatives:/data/out -v <Ruta licencia FreeSurfer>:/opt/freesurfer/license.txt fmriprep /data/in /data/out participant --participant-label 01 --fs-license-file /opt/freesurfer/license.txt
 ```
 En este caso debes de cambiar <Ruta raw> por la ruta donde se encuentran los archivos como se especifico anteriormente.
