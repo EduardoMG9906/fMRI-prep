@@ -1,6 +1,6 @@
 # fMRI-prep 
 ## Instalación
-- Debes de instalar Docker desktop para poder correr la imagen, Para hacerlo puedes instalarlo desde el siguiente link: https://docs.docker.com/get-docker/
+- Debes de instalar Docker para poder correr la imagen, Para hacerlo puedes instalarlo desde el siguiente link: https://docs.docker.com/get-docker/
 - Clonar el repositorio en el git bash:
 ```
 git clone https://github.com/EduardoMG9906/fMRI-prep
